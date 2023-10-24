@@ -16,7 +16,7 @@ export default function NavBar() {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               className="flex font-semibold gap-2 items-center mr-4 py-2 whitespace-nowrap  "
-              href="/profile"
+              href={"/"}
             >
               <Logo height={50} width={50} />
             </Link>
@@ -39,7 +39,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <Link
                   className="py-2 flex items-center   font-bold leading-snug  opacity-80 hover:opacity-100 "
-                  href="/posts"
+                  href={"/"}
                 >
                   <span className=" py-2">Inicio</span>
                 </Link>
@@ -47,7 +47,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <Link
                   className="py-2 flex items-center   font-bold leading-snug  opacity-80 hover:opacity-100 "
-                  href="/profile"
+                  href={"/"}
                 >
 
                   <span className=" py-2">Sobre Nosotros</span>
@@ -56,7 +56,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <Link
                   className="py-2 flex items-center   font-bold leading-snug  opacity-80 hover:opacity-100 "
-                  href="/profile"
+                  href={"/"}
                 >
 
                   <span className="py-2">Proyectos</span>
@@ -65,7 +65,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <Link
                   className="py-2 flex items-center   font-bold leading-snug  opacity-80 hover:opacity-100 "
-                  href="/profile"
+                  href={"/"}
                 >
 
                   <span className=" py-2 bg-primary text-white rounded-md px-2">Contáctanos {"=>"}</span>
