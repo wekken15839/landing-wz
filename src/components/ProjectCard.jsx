@@ -18,7 +18,7 @@ export function ProjectCard({ image, title, text, links }) {
       <CardHeader floated={false} className="mb-[5px] relative h-full">
         <div className="absolute bg-black w-full h-full left-0 top-0 opacity-70">
         </div>
-        <img src={image} alt="project-card" className="w-full object-cover" />
+        <Image src={image} alt="project-card" className="w-full object-cover" />
       </CardHeader>
       <CardBody className="text-center p-0 flex flex-col  mb-2 ">
         <div className="font-bold"><Text>{title}</Text></div>
