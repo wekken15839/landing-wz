@@ -2,6 +2,7 @@ import { ProjectCard } from "../ProjectCard";
 import Subtitle from "../text_labels/Subtitle";
 import Text from "../text_labels/Text";
 import { BsFacebook } from "react-icons/bs"
+import ardillaenmoto from "../../../public/ardillaenmoto.png"
 
 
 const socialMedias = [
@@ -11,7 +12,7 @@ const socialMedias = [
       body: "Empresa de Paneles solares",
       city: "Aguachica"
     },
-    image: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQOO0X7mMnoYz-e9Zdc6Pe6Wz7Ow1DcvhEiaex5aSv6QJDoCtcooqA7UUbjrphvjlIc",
+    image: ardillaenmoto,
     links: [
       {
         text: "Facebook",
@@ -41,7 +42,7 @@ const socialMedias = [
       body: "Empresa de Paneles solares",
       city: "Aguachica"
     },
-    image: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQOO0X7mMnoYz-e9Zdc6Pe6Wz7Ow1DcvhEiaex5aSv6QJDoCtcooqA7UUbjrphvjlIc",
+    image: ardillaenmoto,
     links: [
       {
         text: "Facebook",
@@ -61,47 +62,7 @@ const socialMedias = [
       body: "Empresa de Paneles solares",
       city: "Aguachica"
     },
-    image: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQOO0X7mMnoYz-e9Zdc6Pe6Wz7Ow1DcvhEiaex5aSv6QJDoCtcooqA7UUbjrphvjlIc",
-    links: [
-      {
-        text: "Facebook",
-        link: "https://www.facebook.com",
-        icon: <BsFacebook />
-      },
-      {
-        text: "Facebook",
-        link: "www.reqres.in",
-        icon: <BsFacebook />
-      },
-    ]
-  },
-  {
-    title: "SolarNel",
-    text: {
-      body: "Empresa de Paneles solares",
-      city: "Aguachica"
-    },
-    image: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQOO0X7mMnoYz-e9Zdc6Pe6Wz7Ow1DcvhEiaex5aSv6QJDoCtcooqA7UUbjrphvjlIc",
-    links: [
-      {
-        text: "Facebook",
-        link: "www.reqres.in",
-        icon: <BsFacebook />
-      },
-      {
-        text: "Facebook",
-        link: "www.reqres.in",
-        icon: <BsFacebook />
-      },
-    ]
-  },
-  {
-    title: "SolarNel",
-    text: {
-      body: "Empresa de Paneles solares",
-      city: "Aguachica"
-    },
-    image: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQOO0X7mMnoYz-e9Zdc6Pe6Wz7Ow1DcvhEiaex5aSv6QJDoCtcooqA7UUbjrphvjlIc",
+    image: ardillaenmoto,
     links: [
       {
         text: "Facebook",
@@ -121,7 +82,47 @@ const socialMedias = [
       body: "Empresa de Paneles solares",
       city: "Aguachica"
     },
-    image: "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQOO0X7mMnoYz-e9Zdc6Pe6Wz7Ow1DcvhEiaex5aSv6QJDoCtcooqA7UUbjrphvjlIc",
+    image: ardillaenmoto,
+    links: [
+      {
+        text: "Facebook",
+        link: "www.reqres.in",
+        icon: <BsFacebook />
+      },
+      {
+        text: "Facebook",
+        link: "www.reqres.in",
+        icon: <BsFacebook />
+      },
+    ]
+  },
+  {
+    title: "SolarNel",
+    text: {
+      body: "Empresa de Paneles solares",
+      city: "Aguachica"
+    },
+    image: ardillaenmoto,
+    links: [
+      {
+        text: "Facebook",
+        link: "https://www.facebook.com",
+        icon: <BsFacebook />
+      },
+      {
+        text: "Facebook",
+        link: "www.reqres.in",
+        icon: <BsFacebook />
+      },
+    ]
+  },
+  {
+    title: "SolarNel",
+    text: {
+      body: "Empresa de Paneles solares",
+      city: "Aguachica"
+    },
+    image: ardillaenmoto,
     links: [
       {
         text: "Facebook",

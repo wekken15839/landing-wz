@@ -1,8 +1,6 @@
 "use client"
 import Logo from "../Logo";
 import { AiFillFacebook, AiFillInstagram, AiFillTwitterCircle, AiFillYoutube } from "react-icons/ai"
-import toast, { Toaster } from 'react-hot-toast';
-import { BsFillSendFill } from "react-icons/bs"
 import EmailToast from "../EmailToast";
 const notify = () => toast.success('Here is your toast.');
 
@@ -46,33 +44,8 @@ export default function Footer() {
       <h5 className="text-base md:text-lg font-bold">Stay to update</h5>
       <div className="flex relative">
         <input type="email" className="bg-blue-gray-800 text-white pl-2 rounded-md" placeholder="Your email address" />
-        {/* <button className="absolute right-2 top-1" onClick={notify}><BsFillSendFill /></button> */}
         <EmailToast />
       </div>
     </div>
-    {/* <Toaster position="bottom-center"
-      reverseOrder={false}
-      gutter={8}
-      containerClassName=""
-      containerStyle={{}}
-      toastOptions={{
-        // Define default options
-        className: '',
-        duration: 5000,
-        style: {
-          background: '#fff',
-          color: '#000',
-          fontWeight: "bold"
-        },
-
-        // Default options for specific types
-        success: {
-          duration: 3000,
-          theme: {
-            primary: 'green',
-            secondary: 'black',
-          },
-        },
-      }} /> */}
   </div>);
 };  
