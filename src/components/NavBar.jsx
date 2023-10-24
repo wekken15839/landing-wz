@@ -1,5 +1,5 @@
 "use client"
-import Link from "next/link"
+import a from "next/a"
 import Image from "next/image"
 import { useState } from "react"
 import { FaBars } from "react-icons/fa"
@@ -14,12 +14,12 @@ export default function NavBar() {
       <nav className="fixed z-10 w-full top-0 flex flex-wrap items-center justify-between bg-gray min-h-[65px]">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <Link
+            <a
               className="flex font-semibold gap-2 items-center mr-4 py-2 whitespace-nowrap  "
               href={"/"}
             >
               <Logo height={50} width={50} />
-            </Link>
+            </a>
             <button
               className=" cursor-pointer text-xl leading-none py-2 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
@@ -37,39 +37,39 @@ export default function NavBar() {
           >
             <ul className="flex justify-end w-full flex-col lg:flex-row list-none lg:ml-auto gap-3">
               <li className="nav-item">
-                <Link
+                <a
                   className="py-2 flex items-center   font-bold leading-snug  opacity-80 hover:opacity-100 "
                   href={"/"}
                 >
                   <span className=" py-2">Inicio</span>
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="py-2 flex items-center   font-bold leading-snug  opacity-80 hover:opacity-100 "
                   href={"/"}
                 >
 
                   <span className=" py-2">Sobre Nosotros</span>
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="py-2 flex items-center   font-bold leading-snug  opacity-80 hover:opacity-100 "
                   href={"/"}
                 >
 
                   <span className="py-2">Proyectos</span>
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="py-2 flex items-center   font-bold leading-snug  opacity-80 hover:opacity-100 "
                   href={"/"}
                 >
 
                   <span className=" py-2 bg-primary text-white rounded-md px-2">Contáctanos {"=>"}</span>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
