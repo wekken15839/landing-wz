@@ -1,0 +1,27 @@
+export default function Logo({ width, height }) {
+
+  return (<svg width={width} height={height} viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0D30342)">
+      <rect x="4" y="25" width="35.3553" height="35.3553" transform="rotate(-45 4 25)" fill="url(#paint0Linear30342)" />
+      <path d="M28.4752 37.8094L19.5121 25.9411L37.6557 26.1085L28.4752 37.8094Z" fill="black" fillOpacity="0.894118" />
+    </g>
+    <defs>
+      <filter id="filter0D30342" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1DropShadow30342" />
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1DropShadow30342" result="shape" />
+      </filter>
+      <linearGradient id="paint0Linear30342" x1="4.47423" y1="28.5754" x2="39.3151" y2="60.427" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#55B7FE" />
+        <stop offset="0.885417" stopColor="#0647A9" />
+      </linearGradient>
+    </defs>
+  </svg>
+
+  );
+};  
