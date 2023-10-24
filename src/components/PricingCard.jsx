@@ -11,7 +11,7 @@ import Subtitle from "./text_labels/Subtitle";
 
 
 
-export function PricingCard({ name, price, features }) {
+export function PricingCard({ name }) {
 
   return (
     <Card color="white" variant="gradient" className="w-full h-full max-w-[20rem] p-8">
