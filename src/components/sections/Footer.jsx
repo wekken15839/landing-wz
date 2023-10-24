@@ -2,7 +2,6 @@
 import Logo from "../Logo";
 import { AiFillFacebook, AiFillInstagram, AiFillTwitterCircle, AiFillYoutube } from "react-icons/ai"
 import EmailToast from "../EmailToast";
-const notify = () => toast.success('Here is your toast.');
 
 export default function Footer() {
 

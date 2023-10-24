@@ -6,13 +6,14 @@ import {
   CardFooter,
 } from "@material-tailwind/react";
 import Text from "./text_labels/Text";
-import Title from "./text_labels/Title";
 import Subtitle from "./text_labels/Subtitle";
 import numeral from 'numeral';
 
 
 
+
 export function PricingCard({ name, price, features }) {
+  const numeroguapo = numeral(price).format("0,0");
   return (
     <Card color="white" variant="gradient" className="w-full h-full max-w-[20rem] p-8">
       <CardHeader
@@ -23,7 +24,7 @@ export function PricingCard({ name, price, features }) {
       >
         <Text>{name}</Text>
         <Subtitle>
-          ${numeral(price).format("0,0")}
+          ${numeroguapo}
         </Subtitle>
         <Subtitle>
           COP
